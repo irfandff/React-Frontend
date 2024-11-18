@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowLeftLong, faCartShopping } from "@fortawesome/free-solid-svg-icons"
 import Button from "../../components/Button/Button"
 import formatToIDRCurrency from "../../utils/formatToIDRCurrency"
-import getAllProducts from "../../Services/getAllProducts"
+import getAllProducts from "../../services/getAllProducts"
 
 
 export default function ProductDetail() {

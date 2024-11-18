@@ -1,5 +1,5 @@
 import {useState, useEffect, useRef, useTransition} from 'react'
-import getAllProducts from '../../Services/getAllProducts'
+import getAllProducts from '../../services/getAllProducts'
 import CardList from '../../components/CardList/CardList'
 import Navbar from '../../components/Navbar/Navbar'
 import RadioButton from '../../components/RadioButton/RadioButton'
